@@ -1,11 +1,12 @@
 import "./App.scss";
-import Header from "./components/header";
+import Header from "./components/header/header";
+import Meme from "./components/meme/meme";
 
 function App() {
   return (
     <div className="App">
-      <h1>HELLO WORLD</h1>
       <Header />
+      <Meme />
     </div>
   );
 }
