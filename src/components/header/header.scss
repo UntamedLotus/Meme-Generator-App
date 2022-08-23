@@ -17,3 +17,13 @@
   font-size: 1.25rem;
   margin-right: auto;
 }
+
+@media (max-width: 59em) {
+  .header {
+    padding: 18px;
+  }
+
+  .header--title {
+    font-size: 1.2rem;
+  }
+}

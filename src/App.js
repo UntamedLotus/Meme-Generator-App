@@ -4,9 +4,12 @@ import Meme from "./components/meme/meme";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Meme />
+    <div>
+      <div className="App">
+        <Header />
+        <Meme />
+      </div>
+      <p className="credits">@Ruttika ©2022</p>
     </div>
   );
 }
